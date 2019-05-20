@@ -14,3 +14,5 @@ img_R = pd.read_csv(r"C:\Users\Motegi\Documents\Python Scripts\T0516111007281_CN
 img_R = img_R.drop(columns = img_R.shape[1] - 1, axis = 1)
 
 input_img = np.array(0.299 * img_B.T + 0.587 * img_G.T + 0.114 * img_R.T)
+
+# Change a little 
